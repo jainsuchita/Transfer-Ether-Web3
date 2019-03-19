@@ -1,0 +1,32 @@
+body {
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background: #9fd7c166;
+    padding: 20px;
+}
+
+.textfield-group input{
+  width: 300px !important;
+}
+
+.textfield-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.main-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.textfield-group button{
+  margin-top: 20px;
+}
